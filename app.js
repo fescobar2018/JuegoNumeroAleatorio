@@ -50,6 +50,7 @@ function generarNumeroSecreto() {
 function CondicionesIniciales(){
     asignarTextoElemento('h1', 'Juego del numero secreto');
     asignarTextoElemento('p', 'Indica un número del 1 a 10');
+    asignarTextoElemento('h3', '');
     numeroSecreto = generarNumeroSecreto();
     intentos = 1;
 }
